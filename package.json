@@ -1,0 +1,15 @@
+{
+  "name": "twd-hackathon-hr-agentic",
+  "private": true,
+  "scripts": {
+    "dev:be": "pnpm --filter backend dev",
+    "dev:fe": "pnpm --filter frontend dev",
+    "dev": "pnpm run dev:be & pnpm run dev:fe",
+    "build:be": "pnpm --filter backend build",
+    "build:fe": "pnpm --filter frontend build",
+    "build": "pnpm run build:be && pnpm run build:fe",
+    "lint:be": "pnpm --filter backend lint",
+    "lint:fe": "pnpm --filter frontend lint",
+    "lint": "pnpm run lint:be && pnpm run lint:fe"
+  }
+}
