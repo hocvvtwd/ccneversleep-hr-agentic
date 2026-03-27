@@ -83,3 +83,6 @@ external/
 
 # Git worktrees (local development only)
 worktrees/
+plans/
+.claude
+.opencode
