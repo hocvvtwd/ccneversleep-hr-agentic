@@ -23,21 +23,22 @@ export function HeroSection() {
 
   return (
     <section className="relative flex min-h-[100dvh] items-center justify-center overflow-hidden">
-      {/* Full-bleed 3D background */}
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: 'url(/images/hero-3d.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center 60%',
-        }}
+      {/* Full-bleed looping video background */}
+      <video
+        className="absolute inset-0 z-0 h-full w-full object-cover"
+        src="/home_page_hero.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        style={{ objectPosition: 'center 60%', opacity: 0.2 }}
       />
       <div className="absolute inset-0 z-[1] bg-gradient-to-b from-background/60 via-transparent to-background/80" />
 
       <div ref={containerRef} className="relative z-10 flex flex-col items-center px-6 text-center">
         <h1
           data-hero-pixel
-          className="font-pixel text-[clamp(2rem,6vw,5rem)] leading-[1.1] text-accent"
+          className="font-mono text-[clamp(2rem,6vw,5rem)] leading-[1.1] text-accent"
           style={{ opacity: 0 }}
         >
           Tireless

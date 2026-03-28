@@ -18,7 +18,7 @@ export function Footer() {
         {/* Large split typography */}
         <div className="flex flex-col items-center gap-4 md:flex-row md:items-end md:justify-between">
           <span
-            className="font-pixel text-[clamp(3rem,10vw,8rem)] leading-none text-accent"
+            className="font-mono text-[clamp(3rem,10vw,8rem)] leading-none text-accent"
             style={{ fontFamily: "'Press Start 2P', monospace" }}
           >
             Echoed

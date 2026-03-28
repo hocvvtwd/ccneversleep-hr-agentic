@@ -17,7 +17,7 @@ export function Navbar() {
     >
       <div className="flex items-center justify-between px-6 py-5 md:px-10">
         {/* Logo */}
-        <span className="font-pixel text-xs tracking-[3px] text-accent">NEVERSLEEP</span>
+        <span className="font-mono text-xs tracking-[3px] text-accent">NEVERSLEEP</span>
 
         {/* Right side */}
         <div className="flex items-center gap-4">

@@ -206,11 +206,13 @@ export function OrbitFeatures() {
           className="absolute top-1/2 w-[280px] -translate-y-1/2 md:w-[420px] lg:w-[480px]"
           style={{ left: '52%', transform: 'translate(-40%, -50%)', zIndex: 5 }}
         >
-          <img
-            src="/images/hero-3d.webp"
-            alt="AI-powered recruitment"
+          <video
+            src="/home_page_hero.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
             className="w-full object-contain"
-            loading="lazy"
           />
           <div className="absolute inset-0 -z-10 scale-[2] rounded-full bg-accent/5 blur-3xl" />
         </div>
