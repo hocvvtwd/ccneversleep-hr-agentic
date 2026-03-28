@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- PP Supply fonts (local) -->
+    <link rel="preload" href="/fonts/PPSupplySans-Regular.otf" as="font" type="font/otf" crossorigin />
+    <link rel="preload" href="/fonts/PPSupplyMono-Regular.otf" as="font" type="font/otf" crossorigin />
+
+    <!-- Google Fonts: Playfair Display (serif) + Press Start 2P (pixel) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+    <!-- Primary Meta -->
+    <title>HR Assistant AI — AI-Powered Recruitment & HR Automation</title>
+    <meta
+      name="description"
+      content="Automate birthday cards, LinkedIn posts, and candidate finding with AI. Save 10+ hours/week. Free to start, no credit card required."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="HR Assistant AI — Your Smartest Recruiter Never Sleeps" />
+    <meta
+      property="og:description"
+      content="AI-powered HR tool: auto-generate cards, LinkedIn posts, find & score candidates. Free tier available."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HR Assistant AI" />
+    <meta name="twitter:description" content="Save 10+ hours/week with AI-powered HR automation" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "HR Assistant AI",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "offers": [
+          { "@type": "Offer", "price": "0", "priceCurrency": "USD", "name": "Free" },
+          { "@type": "Offer", "price": "29", "priceCurrency": "USD", "name": "Pro" },
+          { "@type": "Offer", "price": "79", "priceCurrency": "USD", "name": "Team" }
+        ],
+        "description": "AI-powered HR assistant for birthday cards, LinkedIn automation, and candidate finding"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
